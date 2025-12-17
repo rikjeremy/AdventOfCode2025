@@ -186,7 +186,6 @@ namespace AdventOfCode
         private class Column
         {
             public long Routes { get; set; }
-
             public int ColumnId { get; set; }
 
             public override int GetHashCode()

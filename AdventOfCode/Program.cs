@@ -29,8 +29,15 @@ internal class Program
         //Console.WriteLine(d6.GetCheckTotal(1));
         //Console.WriteLine(d6.GetCheckTotal(2));
 
-        var d7 = new DaySeven();
-        Console.WriteLine(d7.RunSplit());
-        Console.WriteLine(d7.GenerateTimelines());
+        //var d7 = new DaySeven();
+        //Console.WriteLine(d7.RunSplit());
+        //Console.WriteLine(d7.GenerateTimelines());
+
+        //var d8 = new DayEight();
+        //Console.WriteLine(d8.ConnectLights1());
+        //Console.WriteLine(d8.ConnectLights2());
+
+        var d9 = new DayNine();
+        Console.WriteLine(d9.GetLargestArea());
     }
 }
